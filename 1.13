@@ -1,0 +1,4 @@
+n = 15
+b = n+1
+c = n-1
+print(n, b, c)
