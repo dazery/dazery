@@ -1,0 +1,4 @@
+n = 2
+b = 44
+c = b - 23
+print(n, b, c, sep=" ")
