@@ -1,0 +1,4 @@
+a = "100 t"
+b = "1949 v"
+print(a)
+print(b)
