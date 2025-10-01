@@ -1,0 +1,7 @@
+import random
+a = random.randint(-10, 10)
+b = random.randint(-5,  5)
+for x in range(1, 10):
+    С = a*x+b
+    if a!= 0:
+        print("a*x+b = 0", С, sep=";")
