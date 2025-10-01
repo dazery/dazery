@@ -1,0 +1,6 @@
+from math import sqrt
+a = 21
+b = 42
+ариф = (a+b)/2
+геом = sqrt(a*b)
+print(ариф, геом, sep="       ")
