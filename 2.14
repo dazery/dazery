@@ -1,0 +1,6 @@
+from math import sqrt
+k = 22
+k2 = 41
+c = k**2+k2**2
+w = sqrt(c)
+print(round(w))
