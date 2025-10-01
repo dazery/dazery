@@ -1,0 +1,7 @@
+from math import sqrt
+a1 = 7
+a2 = 3
+h = 4
+абок = sqrt(((a1-a2)/2)**2+h**2)
+P = абок*2+a1+a2
+print(P)
