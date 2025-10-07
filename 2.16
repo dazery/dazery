@@ -1,0 +1,6 @@
+from math import sqrt
+k = 6
+k2 =8
+г = sqrt(k**2 + k2**2)
+P = k+k2+г
+print(P)
