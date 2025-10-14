@@ -1,0 +1,6 @@
+from math import sqrt
+a = 32
+b = 54
+ar = abs(a+b)/2
+geo = sqrt(abs(a*b))
+print(ar, geo, sep=",      ")
