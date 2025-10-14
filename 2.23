@@ -1,0 +1,6 @@
+from math import sqrt
+a = 32
+b = 12
+p = (32+12)*2
+d = sqrt((a**2+b**2))
+print(p, d)
