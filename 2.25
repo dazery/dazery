@@ -1,0 +1,7 @@
+from math import sqrt
+a = 11
+b = 5
+c = 3
+v = a*b*c
+s = 2*(a+b)*c
+print(v, s)
