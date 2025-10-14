@@ -1,0 +1,9 @@
+import math
+from math import sqrt
+a = 7
+b = 5
+y = (60)
+ak = (7-5)/2
+h = (ak*math.tan(60))
+s = ((a+b)/2)*h
+print(s)
