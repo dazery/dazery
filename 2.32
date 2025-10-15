@@ -1,0 +1,9 @@
+import math
+import random
+m = 23414
+s = 14323
+k = 1700
+d = 2340
+n = random.randint(1, 100)
+print(3*(m+s+k+d))
+print(n*(m+s+k+d))
