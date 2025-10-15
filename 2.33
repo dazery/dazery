@@ -1,0 +1,8 @@
+import math
+import random
+t = random.randint(1, 16)
+m = random.randint(1, 16)
+s = ((t+m)/2)
+print(s)
+print(s-t)
+print(s-m)
