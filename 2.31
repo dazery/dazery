@@ -1,0 +1,9 @@
+import math
+import random
+к = 142
+п = 97
+я = 86
+x = random.randrange(1, 10)
+y = random.randrange(1, 10)
+z = random.randrange(1, 10)
+print(x*к+п*y+я*z)
