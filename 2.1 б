@@ -1,0 +1,4 @@
+import random
+a = random.randint(2, 10)
+y = 3*a**2+5*a-21
+print(y)
