@@ -1,0 +1,9 @@
+import random
+a = random.randint(3, 8)
+b = random.randint(5, 10)
+e = (a+b)
+w = (a-b)
+q = (a*b)
+s = (a/b)
+d = (a+b)/2
+print(e, w, q, s, d, sep=",    ")
