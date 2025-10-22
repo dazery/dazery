@@ -1,0 +1,6 @@
+import math
+import random
+from math import sqrt
+a = random.randint(-2, 10)
+y = sqrt((2*a+math.sin(3*abs(a))/3.56))
+print(y)
