@@ -1,0 +1,6 @@
+import random
+from random import randint
+v1 = random.randint(40, 100)
+v2 = random.randint(50, 110)
+s = random.randint(10000, 15000)
+print(s/(v1+v2))
