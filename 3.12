@@ -1,0 +1,15 @@
+import math
+import random
+
+k = 20
+n = 5
+s = 4
+j = random.randint(1, 20)
+x = j//s
+y = j
+z = math.floor(x)
+if j == 20:
+    z = 4
+if j <= 4:
+    z = 0
+print(z, y)
