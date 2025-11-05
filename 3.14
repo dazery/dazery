@@ -1,0 +1,21 @@
+import math
+import random
+
+s = 9
+e = 4
+k = 6
+z = random.randint(1, 216)
+if z <= 54:
+    r = 1
+    q = (((z-1)/k)+1)
+elif z >= 162:
+    r = 4
+    q = (((z-163)/k)+1)
+elif z >54 and z<108:
+    r = 2
+    q = (((z-55)/k)+1)
+elif z >108 and z<162:
+    r = 3
+    q = (((z-109)/k)+1)
+w = math.floor(q)
+print(r, w, z)
