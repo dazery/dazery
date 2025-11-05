@@ -1,0 +1,12 @@
+import math
+import random
+
+s = 10
+e = 5
+n = random.randint(1,50)
+
+r = (((n-1)/5)+1)
+if n == 1:
+    z = 1
+z = math.floor(r)
+print(z, n)
