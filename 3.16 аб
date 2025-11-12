@@ -1,0 +1,11 @@
+import math
+import random
+
+x = random.randint(10, 99)
+q = math.floor(x/10)
+s = str(x)
+c = s[1]
+
+print("десятков", q)
+print("единиц", c)
+print(x)
