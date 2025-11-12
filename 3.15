@@ -1,0 +1,40 @@
+import math
+import random
+
+s = 10
+e = 8
+k = 15
+z = random.randint(1, 1200)
+if z <=120:
+    print("ярус 1")
+    q = ((z-1)/k)+1
+if z <=240 and z>=121:
+    print("ярус 2")
+    q = ((z-121)/k)+1
+if z <= 360 and z>=241:
+    print("ярус 3")
+    q = ((z-241)/k)+1
+if z <= 480 and z>=361:
+    print("ярус 4")
+    q = ((z-361)/k)+1
+if z <= 600 and z>=481:
+    print("ярус 5")
+    q = ((z - 481) / k) + 1
+if z <=720 and z>=601:
+    print("ярус 6")
+    q = ((z - 601) / k) + 1
+if z <=840 and z>=721:
+    print("ярус 7")
+    q = ((z - 721) / k) + 1
+if z <=960 and z>=841:
+    print("ярус 8")
+    q = ((z - 841) / k) + 1
+if z <= 1080 and z>=961:
+    print("ярус 9")
+    q = ((z - 961) / k) + 1
+if z <= 1200 and z>=1081:
+    print("ярус 10")
+    q = ((z - 1081) / k) + 1
+
+a = math.floor(q)
+print("место номер", z, "секция",  a)
