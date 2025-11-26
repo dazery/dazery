@@ -1,0 +1,13 @@
+import math
+import random
+
+x = random.randint(100, 909)
+c = str(x)
+w = c[0]
+e = str(x)
+r = e[1]
+p = str(x)
+f = p[2]
+
+if w!=r and w!=f  and f!=r and f!=w and r!=f and r!=w:
+    print(w,f,r,f,r,w, sep="")
