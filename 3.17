@@ -1,0 +1,9 @@
+import math
+import random
+
+x = random.randint(10, 99)
+q = math.floor(x/10)
+c = str(x)
+s = c[1]
+print(q+int(s))
+print(x)
