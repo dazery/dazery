@@ -1,0 +1,11 @@
+import math
+import random
+
+x = random.randint(100, 909)
+q = math.floor(x/10)
+c = str(x)
+w = c[0]
+e = c[1]
+r = c[2]
+print(r, e, w, sep="")
+print(x)
