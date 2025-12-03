@@ -1,0 +1,17 @@
+import math
+import random
+
+x = random.randint(1000, 9999)
+c = str(x)
+w = c[0]
+e = str(x)
+r = e[1]
+p = str(x)
+f = p[2]
+k = str(x)
+z = k[3]
+print("a =", z,f,r, w)
+print("б =", r, w,z, f)
+print("в =", w,f,r, z)
+print("г =", f,z,w,r)
+print(x)
