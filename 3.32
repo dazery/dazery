@@ -1,0 +1,9 @@
+import math
+import random
+x = 372
+u = 372 - 2
+w = u/10
+n = str(x)
+f = n[2]
+print(f,w, sep="")
+print("x =", 372)
