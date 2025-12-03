@@ -1,0 +1,9 @@
+import math
+import random
+x = random.randint(100, 999)
+n = str(x)
+u = n[2]
+b = x - int(u)
+q = b/10
+print(u,q, sep="")
+print(x)
