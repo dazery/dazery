@@ -1,0 +1,7 @@
+import random
+n = 456
+a = str(n)
+b = a[0]
+q = a[1]
+w = a[2]
+print("x=", b,w,q)
