@@ -1,0 +1,9 @@
+import random
+n = random.randint(1, 999)
+a = n%10
+b = n//10
+x = a*100+b
+print(x)
+print(n)
+print(a)
+print(b)
