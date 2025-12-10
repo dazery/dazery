@@ -1,0 +1,8 @@
+import random
+n = 546
+s = str(n)
+q = s[0]
+w = s[1]
+e = s[2]
+x = (w,q,e)
+print(x, sep="")
