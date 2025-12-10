@@ -1,0 +1,7 @@
+import random
+n = random.randint(10, 999)
+a = str(n)
+b = a[0]
+q = a[1]
+w = a[2]
+print("x=", q,b,w, sep="")
