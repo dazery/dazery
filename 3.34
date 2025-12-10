@@ -1,0 +1,10 @@
+x = 456
+r = str(x)
+i = r[0]
+q = r[1]
+w = r[2]
+e = 56
+t = e*10
+y = int(t)+int(i)
+if y == 564: print(x)
+else: print(0)
