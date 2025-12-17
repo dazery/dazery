@@ -1,5 +1,5 @@
 import random
-k = random.randint(1, 21)
+k = random.randint(1, 365)
 t = (k)%7
 n = k*10+t
 print(n)
