@@ -1,0 +1,5 @@
+import random
+k = random.randint(1, 21)
+d = random.randint(1, 7)
+t = (d+k-1)%7
+print(t, d, k)
