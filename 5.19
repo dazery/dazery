@@ -1,0 +1,9 @@
+import math
+print("Значения sin(x):")
+print("-"*23)
+
+x = 0.1
+while x <= 1.5+ 0.0000001:
+    sin_n = math.sin(x)
+    print(f"sin({x:.1f}) = {sin_n:.9f}")
+    x += 0.1
