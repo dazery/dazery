@@ -1,0 +1,12 @@
+kurs = 78.2
+# 20 strok po -
+print("-"*20)
+print("| Доллары | Рубли |")
+print("-"*17)
+
+for dollar in range(1,21):
+    rub = dollar*kurs
+    # 2 - shirina polya, a d - tip dannih/8-shirina polya .2 - kolichestvo znakop pocle ,// f - tip dannih(float)
+    print(f"| {dollar:2d} | {rub:8.2f} |")
+
+print("-"*17)
