@@ -1,0 +1,10 @@
+def sum_odd_numbers_while():#Сумма нечётных чисел через цикл while
+    t = 0
+    n = 1
+    while n < 50:
+        t += n
+        n += 2
+    return t
+
+result = sum_odd_numbers_while()
+print(result)
