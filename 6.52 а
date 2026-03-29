@@ -1,0 +1,10 @@
+import random
+n = random.randint(1, 100000000)
+print(n)
+while n>2:
+    i = n%10
+    if i == 3:
+        print("есть")
+        break
+    else:print(0)
+    break
