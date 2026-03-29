@@ -1,0 +1,10 @@
+import random
+n = random.randint(1, 100000000)
+maxd = 0 #Начинает с предположения, что максимальная цифра — 0
+print(n)
+while n>0:
+    d = n%10# Получаем последнюю цифру
+    if d > maxd:
+        maxd = d
+    n = n//10# Удаляем последнюю цифру
+print(maxd)
