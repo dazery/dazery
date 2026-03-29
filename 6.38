@@ -1,0 +1,14 @@
+import random
+n = random.randint(100, 100000000)
+print(n)
+p = 1
+r = 0
+while n>0:
+    d = n%10
+    if d == 3:
+        r = p
+        break
+    else:
+        n = n//10
+        p +=1
+print(r)
