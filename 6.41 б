@@ -1,0 +1,10 @@
+import random
+n = random.randint(1, 100000000)
+mind = 9  #Инициализируем минимум максимально возможной цифрой (9)
+print(n)
+while n>0:
+    d = n%10# Получаем последнюю цифру
+    if d < mind:
+        mind = d
+    n = n//10# Удаляем последнюю цифру
+print(mind)
