@@ -1,0 +1,14 @@
+import random
+a = random.uniform(0, 3)
+print(a)
+
+if not (1 < a <= 1.5):
+    print("Ошибка")
+else:
+    k = 2
+    while True:
+        current = 1 + 1 / k  # Вычисляем текущий член последовательности
+        if current < a:  # Если текущий член меньше a — нашли ответ
+            print(f"Первое число, меньшее {a}: 1 + 1/{k} = {current:.6f}")
+            break
+        k += 1  # Переходим к следующему k
