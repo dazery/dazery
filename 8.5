@@ -1,0 +1,15 @@
+import random
+
+a = random.randint(0, 2)
+print(a)
+
+if a < 0 or a > 1.5:
+    print("a не в диапазоне от 0 до 1 включительно.")
+else:
+    k = 2
+    r = 1 + 1/k
+
+    while r >= a:
+        print(f"1/{k} = {r:.6f}")
+        k += 1
+        r = 1 + 1/k
