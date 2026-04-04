@@ -1,0 +1,11 @@
+import random
+
+m = random.uniform(0, 2)
+if 0.5 < m < 1:
+    n = 1
+    print(m)
+    while (c := n / (n + 1)) < m:
+        print(f"{c:.6f}")
+        n += 1
+else:
+    print("Ошибка диапазона.")
