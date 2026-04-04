@@ -1,0 +1,11 @@
+import random
+
+n = random.randint(1, 10000)
+print(n)
+k = 1
+r = k*k
+
+while r<=n:
+    print(r)
+    k+=1 # Переходим к следующему натуральному числу
+    r = k*k # Вычисляем следующий квадрат
