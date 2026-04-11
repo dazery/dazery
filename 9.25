@@ -1,0 +1,10 @@
+from itertools import count
+
+for num in range(100, 1000):
+    prostoe = True
+    for delitel in range(2, num):
+        if num % delitel == 0:
+            prostoe = False
+            break
+    if prostoe:
+        print(num, end=" ")
