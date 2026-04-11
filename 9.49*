@@ -1,0 +1,12 @@
+n = 3213412
+original_n = n
+i = 2
+while i * i <= n:
+    if n % i == 0:
+        print(i, end=" ")
+        while n % i == 0:
+            n //= i
+    i += 1
+
+if n > 1:
+    print(n)
