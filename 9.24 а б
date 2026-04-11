@@ -1,0 +1,21 @@
+from itertools import count
+a = 1
+b = 10000
+
+maxcount = 0
+numbers_with_max = []  # список всех чисел с максимальным количеством делителей
+for num in range(a, b+1):
+    count = 0# счётчик делителей
+    for delitel in range(1, num+1):# Перебираем все возможные делители от 1 до number
+        if num%delitel == 0:
+            count +=1
+    # Обновляем максимум
+    if count>maxcount:
+        maxcount=count
+        numbers_with_max = [num]# новый список с этим числом
+    elif count == maxcount:
+        numbers_with_max.append(num)# добавляем ещё одно число
+print(maxcount)#Максимальное количество делителей
+print(numbers_with_max)#Все числа с таким количеством делителей
+print(max(numbers_with_max))#Максимальное из них
+print(min(numbers_with_max))#Минимальное из них
