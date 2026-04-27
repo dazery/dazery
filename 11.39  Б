@@ -1,0 +1,7 @@
+array = [1, 21, 42, 24, 562, 23, 512, 52, 23, 95, 650]
+for i in range(len(array)):
+    if array[i] % 2 == 0:
+        array[i]*=2
+    else:
+        array[i]/=2
+print(array)
