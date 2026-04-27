@@ -1,0 +1,5 @@
+array = [1, 21, 42, 24, 562, 23, 512, 52, 23, 95, 650]
+for i in range(len(array)):
+    if array[i] % 10 == 0:
+        array[i] = 0
+print( array)
