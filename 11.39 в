@@ -1,0 +1,9 @@
+array = [1, 21, 42, 24, 562, 23, 512, 52, 23, 95, 650]
+n = 2
+m = 4
+for i in range(len(array)):
+    if array[i] % 2 == 0:
+        array[i]-=m
+    for i in range(1, len(array), 2):  # начинаем с индекса 1, шаг 2
+        array[i] += n
+print(array)
