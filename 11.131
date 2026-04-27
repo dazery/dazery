@@ -1,0 +1,12 @@
+array = [101, 65, 62, 50, 58, 87, 55, 68, 70, 52, 63, 57, 61, 66, 59, 94]
+
+min_weight = min(array)  # 50
+max_weight = max(array)  # 101
+ratio = max_weight / min_weight  # 2.02
+
+result = ratio > 2
+
+print(f"Минимальный вес: {min_weight} кг")
+print(f"Максимальный вес: {max_weight} кг")
+print(f"Во сколько раз превышает: {ratio}")
+print(f"Превышает более чем в 2 раза: {result}")
