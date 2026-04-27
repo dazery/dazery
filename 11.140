@@ -1,0 +1,10 @@
+array = [101, 65, 62, 50, 58, 87, 55, 68, 70, 52, 63, 57, 61, 66, 59, 94]
+
+# Сортируем массив по возрастанию (лучший результат — первый)
+sorted_array = sorted(array)
+
+first_place = sorted_array[0]   # 1-е место
+second_place = sorted_array[1]  # 2-е место
+
+print(f"Первое место: {first_place} секунд")
+print(f"Второе место: {second_place} секунд")
