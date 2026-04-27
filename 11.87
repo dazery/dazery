@@ -1,0 +1,18 @@
+array = [101, 65, 62, 50, 58, 87, 55, 68, 70, 52, 63, 57, 61, 66, 59, 94]
+
+
+# Отбираем элементы > 10
+filtered_elements = [x for x in array if x > 10]
+
+
+# Считаем сумму и количество
+sum_elements = sum(filtered_elements)
+count_elements = len(filtered_elements)
+
+# Вычисляем среднее арифметическое
+average = sum_elements / count_elements
+
+print(f"Отобранные элементы: {filtered_elements}")
+print(f"Сумма элементов: {sum_elements}")
+print(f"Количество элементов: {count_elements}")
+print(f"Среднее арифметическое: {average}")
