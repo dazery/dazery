@@ -1,0 +1,12 @@
+text = "Сегодня был очень тяжелый день первого вторника месяца"
+
+count_o = text.count('о')
+count_a = text.count('а')
+
+
+if count_o > count_a:
+    print(f"Буква 'о' встречается чаще ({count_o} раз)")
+elif count_a > count_o:
+    print(f"Буква 'а' встречается чаще ({count_a} раз)")
+else:
+    print(f"Буквы 'о' и 'а' встречаются одинаково часто ({count_o} раз)")
