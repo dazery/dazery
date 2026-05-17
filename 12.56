@@ -1,0 +1,6 @@
+text = "Сегодня был очень тяжелый день первого вторника месяца"
+
+for i, char in enumerate(text, start=1):
+#enumerate(text, start=1) даёт позицию (1, 2, 3...) и символ
+    if i % 4 == 1 or i % 4 == 2:
+        print(char)
