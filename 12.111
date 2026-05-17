@@ -1,0 +1,12 @@
+word = "привет"
+
+chars = list(word)
+
+# Меняем местами соседние буквы
+for i in range(0, len(chars), 2):
+    chars[i], chars[i + 1] = chars[i + 1], chars[i]
+
+# Собираем список обратно в строку
+result = ''.join(chars)
+#join - объединяет элементы списка (или другой коллекции) в одну строку
+print(result)
