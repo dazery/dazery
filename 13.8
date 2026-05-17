@@ -1,0 +1,33 @@
+# Таблица с фамилиями
+surnames = [
+    "Иванов", "Петров", "Сидоров", "Кузнецов", "Соколов",
+    "Попов", "Лебедев", "Козлов", "Новиков", "Морозов",
+    "Петрова", "Волкова", "Смирнова", "Васильева", "Михайлова",
+    "Егоров", "Павлов", "Семенов", "Федоров", "Андреев",
+    "Алексеев", "Степанов", "Николаев", "Дмитриев", "Максимов"
+]
+
+# Семейное положение: True - женат/замужем, False - холост/не замужем
+married = [
+    True, True, False, True, True,
+    False, True, True, False, True,
+    True, False, True, True, False,
+    True, False, True, False, True,
+    True, True, False, True, False
+]
+
+# Наличие детей: True - есть, False - нет
+has_children = [
+    True, False, True, True, False,
+    True, True, False, True, False,
+    True, True, False, True, True,
+    False, True, False, True, True,
+    False, True, False, True, False
+]
+
+print("Женатые/замужние люди, имеющие детей:")
+print("-" * 45)
+
+for i in range(len(surnames)):
+    if married[i] and has_children[i]:
+        print(surnames[i])
